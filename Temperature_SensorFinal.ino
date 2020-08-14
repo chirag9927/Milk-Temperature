@@ -3,11 +3,11 @@
 #include <OneWire.h>
 #include <DallasTemperature.h>
 #define BLYNK_PRINT Serial    // Comment this out to disable prints and save space
-char auth[] = "JniysneQdqjRGDHWsK7C8mq679h0PdlT";
+char auth[] = "Authentication-Code";
  
 /* WiFi credentials */
-char ssid[] = "ChiragJain";
-char pass[] = "chirag9926";
+char ssid[] = "ssid-name";
+char pass[] = "wifi-password";
  
 SimpleTimer timer;
  
